@@ -153,7 +153,7 @@ seeLZ = input("是否只获取楼主发言，是输入1，否输入0\n")
 floortag = input("是否写入楼层信息，是输入1，否输入0\n")
 bdtb = BDTB(baseUrl, seeLZ, floortag)
 bdtb.start()
-1
+
 
 
 
