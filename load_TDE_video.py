@@ -99,6 +99,7 @@ def download(conts, page):
     patter = re.compile('http.*?mp4.apikey=.*?"')
     stre = patter.findall(str(element))
     for u in stre:
+        #分辨率选择
         if "64k" in u:
             u = u.split('"')
             download_url = u[0]
